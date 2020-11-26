@@ -1,34 +1,48 @@
 import { Tab } from "semantic-ui-react";
 
+import Intro from "./Sections/Intro";
+import Academics from "./Sections/Academics";
+import Research from "./Sections/Research";
+
 const panes = [
   {
-    menuItem: "Introduction",
-    render: () => <Tab.Pane attached={false}>A little about me</Tab.Pane>,
-  },
-  {
-    menuItem: "Academics",
+    menuItem: "Research",
     render: () => (
-      <Tab.Pane attached={false}>
-        Writing about my school, college and university
+      <Tab.Pane attached={false} as="div">
+        <Research />
       </Tab.Pane>
     ),
   },
   {
-    menuItem: "Research",
+    menuItem: "INTRO",
     render: () => (
-      <Tab.Pane attached={false}>
-        Research, and theoretical works I've been a part of
+      <Tab.Pane attached={false} as="div">
+        <Intro />
+      </Tab.Pane>
+    ),
+  },
+  {
+    menuItem: "Academics",
+    render: () => (
+      <Tab.Pane attached={false} as="div">
+        <Academics />
       </Tab.Pane>
     ),
   },
   {
     menuItem: "Career",
-    render: () => <Tab.Pane attached={false}>Career stuff</Tab.Pane>,
+    render: () => (
+      <Tab.Pane attached={false} as="div">
+        Career stuff
+      </Tab.Pane>
+    ),
   },
   {
     menuItem: "Projects",
     render: () => (
-      <Tab.Pane attached={false}>Projects I have worked on</Tab.Pane>
+      <Tab.Pane attached={false} as="div">
+        Projects I have worked on
+      </Tab.Pane>
     ),
   },
 ];
