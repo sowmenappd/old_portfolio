@@ -36,7 +36,7 @@ const Entry = ({ itemNo, entry: { title, description, url } }) => {
           {title}
         </Item.Header>
         <Item.Description>
-          <p style={{ textAlign: "justify" }}>
+          <div style={{ textAlign: "justify" }}>
             <strong
               style={{
                 display: "inline-block",
@@ -47,7 +47,7 @@ const Entry = ({ itemNo, entry: { title, description, url } }) => {
               <h5>ABSTRACT: </h5>
             </strong>
             {description}
-          </p>
+          </div>
         </Item.Description>
       </Item.Content>
     </Item>

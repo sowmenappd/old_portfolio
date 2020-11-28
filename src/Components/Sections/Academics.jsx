@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Divider, Grid, Segment } from "semantic-ui-react";
 
-import ImageDetailCard from "../RoundImageCard";
+import ImageDetailCard from "../ImageDetailCard";
 
 import school1 from "../../img/school_1.jfif";
 import school2 from "../../img/school_3.jfif";

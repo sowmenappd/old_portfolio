@@ -3,6 +3,7 @@ import { Tab } from "semantic-ui-react";
 import Intro from "./Sections/Intro";
 import Academics from "./Sections/Academics";
 import Research from "./Sections/Research";
+import Career from "./Sections/Career";
 
 const panes = [
   {
@@ -33,7 +34,7 @@ const panes = [
     menuItem: "Career",
     render: () => (
       <Tab.Pane attached={false} as="div">
-        Career stuff
+        <Career />
       </Tab.Pane>
     ),
   },
