@@ -4,6 +4,7 @@ import Intro from "./Sections/Intro";
 import Academics from "./Sections/Academics";
 import Research from "./Sections/Research";
 import Career from "./Sections/Career";
+import Projects from "./Sections/Projects";
 
 const panes = [
   {
@@ -41,7 +42,11 @@ const panes = [
 
   {
     menuItem: "Projects",
-    render: () => <Tab.Pane as="div">Projects I have worked on</Tab.Pane>,
+    render: () => (
+      <Tab.Pane as="div">
+        <Projects />
+      </Tab.Pane>
+    ),
   },
 ];
 

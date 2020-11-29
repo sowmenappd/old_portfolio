@@ -79,7 +79,7 @@ const ExperienceListItem = ({ item: exp }) => {
                   <Label
                     color="green"
                     horizontal
-                    basic={role.timespan.end ? false : true}
+                    basic={role.timespan.end ? true : false}
                     pointing="left"
                   >
                     {role.timespan.start} -
@@ -131,10 +131,10 @@ const Career = () => {
   return (
     <Fragment>
       <Segment basic>
-        <SkillGrid />
+        <ExperienceList />
       </Segment>
       <Segment basic>
-        <ExperienceList />
+        <SkillGrid />
       </Segment>
     </Fragment>
   );
