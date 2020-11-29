@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/static/js/main.bc599898.chunk.js",
+    "main.js.map": "/static/js/main.bc599898.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bb224fa9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bb224fa9.js.map",
+    "static/css/2.85f7760d.chunk.css": "/static/css/2.85f7760d.chunk.css",
+    "static/js/2.d698b9aa.chunk.js": "/static/js/2.d698b9aa.chunk.js",
+    "static/js/2.d698b9aa.chunk.js.map": "/static/js/2.d698b9aa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.85f7760d.chunk.css.map": "/static/css/2.85f7760d.chunk.css.map",
+    "static/js/2.d698b9aa.chunk.js.LICENSE.txt": "/static/js/2.d698b9aa.chunk.js.LICENSE.txt",
+    "static/media/bg.e778d958.jpg": "/static/media/bg.e778d958.jpg",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/college.0dfd07c3.png": "/static/media/college.0dfd07c3.png",
+    "static/media/profile.136dc7bb.jpg": "/static/media/profile.136dc7bb.jpg",
+    "static/media/school_1.8c5f9475.jfif": "/static/media/school_1.8c5f9475.jfif",
+    "static/media/school_2.417c8dde.jfif": "/static/media/school_2.417c8dde.jfif",
+    "static/media/school_3.27425c25.jfif": "/static/media/school_3.27425c25.jfif",
+    "static/media/uni_1.c43f28f5.png": "/static/media/uni_1.c43f28f5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb224fa9.js",
+    "static/css/2.85f7760d.chunk.css",
+    "static/js/2.d698b9aa.chunk.js",
+    "static/js/main.bc599898.chunk.js"
+  ]
+}
