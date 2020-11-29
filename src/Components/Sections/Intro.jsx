@@ -64,10 +64,10 @@ const Intro = () => {
               subtitle="Enthusiastic coder and ML-hobbyist, game-dev since 2016"
               img={pic}
               footer={
-                <a>
+                <button>
                   <Icon name="user" />
                   Testing my dear...
-                </a>
+                </button>
               }
             />
           </Grid.Column>

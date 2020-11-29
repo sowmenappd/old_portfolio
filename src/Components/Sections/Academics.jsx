@@ -60,7 +60,7 @@ const Academics = () => {
               <Grid.Column>
                 <ImageDetailCard
                   title={
-                    <a href={uni.url} target="_blank">
+                    <a href={uni.url} target="_blank" rel="noreferrer">
                       {uni.title}
                     </a>
                   }
@@ -82,7 +82,7 @@ const Academics = () => {
               <Grid.Column>
                 <ImageDetailCard
                   title={
-                    <a href={college.url} target="_blank">
+                    <a href={college.url} target="_blank" rel="noreferrer">
                       {college.title}
                     </a>
                   }
@@ -105,7 +105,7 @@ const Academics = () => {
                 <Grid.Column>
                   <ImageDetailCard
                     title={
-                      <a href={sch.url} target="_blank">
+                      <a href={sch.url} target="_blank" rel="noreferrer">
                         {sch.title}
                       </a>
                     }
