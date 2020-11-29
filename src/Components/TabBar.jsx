@@ -7,44 +7,41 @@ import Career from "./Sections/Career";
 
 const panes = [
   {
-    menuItem: "Research",
-    render: () => (
-      <Tab.Pane attached={false} as="div">
-        <Research />
-      </Tab.Pane>
-    ),
-  },
-  {
     menuItem: "INTRO",
     render: () => (
-      <Tab.Pane attached={false} as="div">
+      <Tab.Pane as="div">
         <Intro />
-      </Tab.Pane>
-    ),
-  },
-  {
-    menuItem: "Academics",
-    render: () => (
-      <Tab.Pane attached={false} as="div">
-        <Academics />
       </Tab.Pane>
     ),
   },
   {
     menuItem: "Career",
     render: () => (
-      <Tab.Pane attached={false} as="div">
+      <Tab.Pane as="div">
         <Career />
       </Tab.Pane>
     ),
   },
   {
-    menuItem: "Projects",
+    menuItem: "Research",
     render: () => (
-      <Tab.Pane attached={false} as="div">
-        Projects I have worked on
+      <Tab.Pane as="div">
+        <Research />
       </Tab.Pane>
     ),
+  },
+  {
+    menuItem: "Academics",
+    render: () => (
+      <Tab.Pane as="div">
+        <Academics />
+      </Tab.Pane>
+    ),
+  },
+
+  {
+    menuItem: "Projects",
+    render: () => <Tab.Pane as="div">Projects I have worked on</Tab.Pane>,
   },
 ];
 

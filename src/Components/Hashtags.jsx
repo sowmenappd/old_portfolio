@@ -25,8 +25,8 @@ const hashtagProps = [
 const Hashtags = () => (
   <div>
     {hashtagProps.map((htp) => (
-      <Fragment>
-        <Label as="a" color={htp.color} key={htp.tag}>
+      <Fragment key={htp.tag}>
+        <Label as="button" color={htp.color}>
           <Icon name="hashtag" />
           {" " && htp.tag}
         </Label>

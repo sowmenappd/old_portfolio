@@ -21,8 +21,8 @@ const Quotes = () => (
     <Divider horizontal>
       <Header as="h4" content="Quotes" />
     </Divider>
-    {quoteProps.map((qP) => (
-      <Segment color={qP.color} textAlign="right">
+    {quoteProps.map((qP, i) => (
+      <Segment key={i} color={qP.color} textAlign="right">
         {qP.q} <br /> <br /> - <b>{qP.a}</b>
       </Segment>
     ))}

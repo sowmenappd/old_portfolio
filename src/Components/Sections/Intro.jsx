@@ -1,11 +1,12 @@
 import React, { Fragment } from "react";
-import { Divider, Grid, Header, Icon, Segment } from "semantic-ui-react";
+import { Divider, Flag, Grid, Header, Label, Segment } from "semantic-ui-react";
 
 import ProfileCard from "../ProfileCard";
 import Hashtags from "../Hashtags";
 import Quotes from "../Quotes";
 
 import pic from "../../img/profile.jpg";
+import { span } from "prelude-ls";
 
 const HeaderText1 = () => {
   let style = {
@@ -56,25 +57,38 @@ const Intro = () => {
             <HeaderText1 />
             <TopExtraView />
           </Grid.Column>
-          <Grid.Column style={{ paddingBottom: 55 }}>
+          <Grid.Column style={{ paddingBottom: 60 }}>
             <ProfileCard
               expand
               title="Sowmen Rahman"
-              description="Welcome to my portfolio!"
-              subtitle="Enthusiastic coder and ML-hobbyist, game-dev since 2016"
-              img={pic}
-              footer={
-                <button>
-                  <Icon name="user" />
-                  Testing my dear...
-                </button>
+              description={
+                <div>
+                  <strong>
+                    Enthusiastic coder, ML-hobbyist, and game developer
+                  </strong>
+
+                  <div style={{ marginTop: 24 }}>
+                    <Label
+                      attached="bottom right"
+                      content="Dhaka, BD"
+                      color="orange"
+                      icon={<Flag align name="bd" />}
+                    />
+                  </div>
+                </div>
               }
+              subtitle={
+                <p>
+                  <i>24 years</i>
+                </p>
+              }
+              img={pic}
             />
           </Grid.Column>
         </Grid.Row>
 
         <Grid.Row>
-          <Grid.Column width={16} style={{ marginTop: 20 }}>
+          <Grid.Column width={16} style={{ marginTop: 10 }}>
             <Divider horizontal section>
               <Header as="h2" textAlign="center">
                 A LITTLE ABOUT ME
